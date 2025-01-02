@@ -1,0 +1,926 @@
+Unity Editor version:    6000.0.23f1 (1c4764c07fb4)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4 (Build 23E214)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/checklevelmax/Documents/03 BS./01 3dVision/tank
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58433
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/checklevelmax/Documents/03 BS./01 3dVision/tank
+/Users/checklevelmax/Documents/03 BS./01 3dVision/tank
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8275720896]  Target information:
+
+Player connection [8275720896]  * "[IP] 10.81.59.7 [Port] 0 [Flags] 2 [Guid] 767904659 [EditorId] 767904659 [Version] 1048832 [Id] OSXEditor(0,checklevelmaxdeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8275720896] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8275720896] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/checklevelmax/Documents/03 BS./01 3dVision/tank/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M3 Pro (high power)
+Metal devices available: 1
+0: Apple M3 Pro (high power)
+Using device Apple M3 Pro (high power)
+Initializing Metal device caps: Apple M3 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000635 seconds.
+- Loaded All Assemblies, in  0.199 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 493ms
+	BeginReloadAssembly (43ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (43ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (87ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (294ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (267ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.786 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1320ms
+	BeginReloadAssembly (544ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (71ms)
+				TypeCache.ScanAssembly (62ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3199 unused Assets / (0.8 MB). Loaded Objects now: 3814.
+Memory consumption went from 110.9 MB to 110.1 MB.
+Total: 4.561792 ms (FindLiveObjects: 0.256125 ms CreateObjectMapping: 0.071125 ms MarkObjects: 3.806958 ms  DeleteObjects: 0.427208 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72948.030097 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Walk/Walk_Double.anim
+  artifactKey: Guid(f2f19e7499dca254ba685e3268a8dc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Walk/Walk_Double.anim using Guid(f2f19e7499dca254ba685e3268a8dc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e70392a27e7d850b75f97f69c22ba829') in 0.013828334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000988 seconds.
+  path: Assets/ydhGameplay/ydhScripts/ydhPlayerController.cs
+  artifactKey: Guid(66b5971f2aef0bc40802598f00b58fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhGameplay/ydhScripts/ydhPlayerController.cs using Guid(66b5971f2aef0bc40802598f00b58fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0196b7ca983756e12bd09a6eda88fd8c') in 0.000197875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000610 seconds.
+  path: Assets/ydhAssets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e9d34dd45f32e06bc9105d69238053') in 0.000289875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002118 seconds.
+  path: Assets/ydhAssets/Animation/Player/Idle/Idle_Double.anim
+  artifactKey: Guid(1f19565e371395349a8faa8b4d9c4ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Idle/Idle_Double.anim using Guid(1f19565e371395349a8faa8b4d9c4ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58cab98d508692ad99123ea443a890fb') in 0.001161833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001561 seconds.
+  path: Assets/ydhAssets/Models/IPix SDF.asset
+  artifactKey: Guid(cef2ce0e0d4314988920f41c1e3634df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Models/IPix SDF.asset using Guid(cef2ce0e0d4314988920f41c1e3634df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b2a1f3de15b360de8f761e89a27c2fd') in 0.08639775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002084 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_TwoHandsGun.anim
+  artifactKey: Guid(eec9cf096ad55b14aa6dc85c99a03b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_TwoHandsGun.anim using Guid(eec9cf096ad55b14aa6dc85c99a03b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6b7e4077f5ca497d1638bce0fd3d57b') in 0.001133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/tnt/source/holydoor_lp.obj
+  artifactKey: Guid(b5c7b387cd6d244429c02b62c2767851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/tnt/source/holydoor_lp.obj using Guid(b5c7b387cd6d244429c02b62c2767851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15a3f670085fdd57c7b3ac80d5d88194') in 0.0265945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_Double.anim
+  artifactKey: Guid(01ea4c24fc029394b90371c1fc6a121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_Double.anim using Guid(01ea4c24fc029394b90371c1fc6a121b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd66569e80e3ff0f3b64d7d616848b55') in 0.001236875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Walk/Walk_None.anim
+  artifactKey: Guid(b5eaac4e30233d34091317084e774b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Walk/Walk_None.anim using Guid(b5eaac4e30233d34091317084e774b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c85d3e51330bd6c41ad882100b271b0f') in 0.001151917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/tnt/satchel_LP_lp_satchel_Normal.png
+  artifactKey: Guid(86de8ef413ab64decb25145f6e627d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/tnt/satchel_LP_lp_satchel_Normal.png using Guid(86de8ef413ab64decb25145f6e627d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d47d4c04dd360a5e77459dced2fb275') in 0.056129458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/ydhAssets/Animation/Player/Player.controller
+  artifactKey: Guid(c8e7d7d342dbda54d8a5d8bafd1e46ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Player.controller using Guid(c8e7d7d342dbda54d8a5d8bafd1e46ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ea58c4ca612d3ea9837edfa65be35d9') in 0.0038535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_DoubleGun.anim
+  artifactKey: Guid(59ec67a91867e1b4185feeed2f26fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_DoubleGun.anim using Guid(59ec67a91867e1b4185feeed2f26fb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '113a2529ae8367759c5ab49c197b14b0') in 0.000965709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_SingleMagic.anim
+  artifactKey: Guid(e85556d22894b7346a01f9ccf2a4fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_SingleMagic.anim using Guid(e85556d22894b7346a01f9ccf2a4fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f81f0087252e3b740fce973fd14ac9cd') in 0.000929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001263 seconds.
+  path: Assets/ydhAssets/Materials/Textures/PolygonWestern04.mat
+  artifactKey: Guid(1a5431927eb4a4c32bd0e2d763c274c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Textures/PolygonWestern04.mat using Guid(1a5431927eb4a4c32bd0e2d763c274c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c316d29a0d366cc52b61b5c257b2f20') in 0.004606209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/ydhAssets/Materials/Blue.mat
+  artifactKey: Guid(ff21ff0ea9b18924bb1fdfbb0e58f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Blue.mat using Guid(ff21ff0ea9b18924bb1fdfbb0e58f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7965f5c533cb09dd437bbc92d152ed34') in 0.003662708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_DoubleGun.anim
+  artifactKey: Guid(67ccf52ef3fe76c4aa9bef9e4afe8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_DoubleGun.anim using Guid(67ccf52ef3fe76c4aa9bef9e4afe8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be388b7fa00d8ccf1d1021a0873d8f84') in 0.00112875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001602 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_None.anim
+  artifactKey: Guid(fb4f534e3c4826d41a190b8de73977ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_None.anim using Guid(fb4f534e3c4826d41a190b8de73977ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7998db62d0d8cf8c3bf3792a9274df98') in 0.000992292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/KnifeShell.prefab
+  artifactKey: Guid(5f72ba8cff08d4939afca9ab7f07c537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/KnifeShell.prefab using Guid(5f72ba8cff08d4939afca9ab7f07c537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '797199d97dce09ae3aafbde466cd92a7') in 0.011730333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_TwoHands.anim
+  artifactKey: Guid(7a87313e154a1734995d1c2c4caf4449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_TwoHands.anim using Guid(7a87313e154a1734995d1c2c4caf4449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64cf3d47a9bed43c3ebcfd11a103d1e6') in 0.00111775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_Hand.anim
+  artifactKey: Guid(8aca17a680522e844bd19563177f5e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_Hand.anim using Guid(8aca17a680522e844bd19563177f5e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '063fb031ff6f5c04d74b59de41c7b7f2') in 0.000897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_Single.anim
+  artifactKey: Guid(c95540cbee03a954c868b3cd9d0c2ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_Single.anim using Guid(c95540cbee03a954c868b3cd9d0c2ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '451d55ad938482b6c6df70a0d3bf1226') in 0.001042042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000931 seconds.
+  path: Assets/ydhGameplay/ydhScripts/ydhShell.cs
+  artifactKey: Guid(9c2d7727bbd9c9b42863abe017cd6b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhGameplay/ydhScripts/ydhShell.cs using Guid(9c2d7727bbd9c9b42863abe017cd6b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ddf8b605eb6749ba91bfe2569de2b28') in 0.000074375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_SingleMagic.anim
+  artifactKey: Guid(55b88c310daa45e49a2eef316a456a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_SingleMagic.anim using Guid(55b88c310daa45e49a2eef316a456a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9802d3c8ab0016ad84fa4b60ca5c1496') in 0.00075975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/ydhAssets/Animation/Player/Idle/Idle_TwoHands.anim
+  artifactKey: Guid(c65cf616e6321a545a057002afade9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Idle/Idle_TwoHands.anim using Guid(c65cf616e6321a545a057002afade9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '891621087e7b7b51ebefb1e5a1526356') in 0.000961583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_SingleGun.anim
+  artifactKey: Guid(29888cb33e171274ca5d91e829287f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_SingleGun.anim using Guid(29888cb33e171274ca5d91e829287f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f77c034ca32a0a6cbea0522f5bc6e87') in 0.000758959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001372 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_SingleMagic.anim
+  artifactKey: Guid(caca5cafa8dde2f46a5e615c22dff75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_SingleMagic.anim using Guid(caca5cafa8dde2f46a5e615c22dff75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bca996d30854c26bc8f363409d980a6') in 0.000762917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/tnt/tnt.mat
+  artifactKey: Guid(7c6bf5918601d4856a66f73c128fb47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/tnt/tnt.mat using Guid(7c6bf5918601d4856a66f73c128fb47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd74d6f60e785ac7e60159944987d1b1d') in 0.007579958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001691 seconds.
+  path: Assets/ydhAssets/Materials/Textures/PolygonWestern05.mat
+  artifactKey: Guid(a0e0e7ec3644a44e0a6ab6a51c256738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Textures/PolygonWestern05.mat using Guid(a0e0e7ec3644a44e0a6ab6a51c256738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3abe0eeaeca9b81e39e11e5823fb546d') in 0.003659084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/ydhAssets/Animation/Player/Idle/Idle_None.anim
+  artifactKey: Guid(5ec11596e293e444cb46cac920a28e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Idle/Idle_None.anim using Guid(5ec11596e293e444cb46cac920a28e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40798381b4cb6e74ed4047bac3b363d9') in 0.000866291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000666 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_Hand.anim
+  artifactKey: Guid(1b065ba49ec826c41bb44874fbf6acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_Hand.anim using Guid(1b065ba49ec826c41bb44874fbf6acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd558b25116f3e6518699199ba106b927') in 0.00106325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/ydhGameplay/ydhScripts/Diamond.cs
+  artifactKey: Guid(a52a0b0d0eeab474cbf5b9284e8fe9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhGameplay/ydhScripts/Diamond.cs using Guid(a52a0b0d0eeab474cbf5b9284e8fe9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e697da86029be89484914c3653fb74ed') in 0.000093166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/ydhGameplay/ydhScripts/ydhPlayerCharacter.cs
+  artifactKey: Guid(f4968fa782b18574a9603da528912d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhGameplay/ydhScripts/ydhPlayerCharacter.cs using Guid(f4968fa782b18574a9603da528912d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c4abc075019444efd4d7afc4c0c107d') in 0.000082125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/ydhAssets/Materials/Textures/PolygonWestern01.mat
+  artifactKey: Guid(fb62fa100c5a448039327bbe2290a152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Textures/PolygonWestern01.mat using Guid(fb62fa100c5a448039327bbe2290a152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fd97eae2c54dad571fd9d424116f201') in 0.004016542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001436 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_TwoHandsMagic.anim
+  artifactKey: Guid(2fffcdaa283409b4c8679a2af0576b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_TwoHandsMagic.anim using Guid(2fffcdaa283409b4c8679a2af0576b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdb6ca455b694978fbe165728ba9bcc8') in 0.001044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/ydhAssets/Materials/Materials/knifeydh.mat
+  artifactKey: Guid(295216d939b6d46c1b3dad23dc323d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Materials/knifeydh.mat using Guid(295216d939b6d46c1b3dad23dc323d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a252dbda78de22c7740836adaed3310') in 0.002695875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001568 seconds.
+  path: Assets/ydhGameplay/ydhScripts/ydhAIController.cs
+  artifactKey: Guid(67b0a2c304af10c4cabfbbc70a062eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhGameplay/ydhScripts/ydhAIController.cs using Guid(67b0a2c304af10c4cabfbbc70a062eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54151e6cdaadbd3d81a7177ec30bbdec') in 0.0000945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001040 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Run/Run_Single.anim
+  artifactKey: Guid(e363d01bb387d664aa53e0d783898026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Run/Run_Single.anim using Guid(e363d01bb387d664aa53e0d783898026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f4565d6a15a250ecb0d7b7e8194537d') in 0.001187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/ydhAssets/Materials/Textures/PG3D_CombatKnife_TextureMap_(Pixel).png
+  artifactKey: Guid(01d5cd6b0c2a94bfc8e3935178ba6b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Textures/PG3D_CombatKnife_TextureMap_(Pixel).png using Guid(01d5cd6b0c2a94bfc8e3935178ba6b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '325e0bfa5b392354ab44ed11b559d694') in 0.00219175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_TwoHandsGun.anim
+  artifactKey: Guid(c87e7bc7920efaf459799fc949dea510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_TwoHandsGun.anim using Guid(c87e7bc7920efaf459799fc949dea510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a2bb200d1d309ae346f18c5c76627b5') in 0.00083125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001229 seconds.
+  path: Assets/ydhAssets/Materials/Textures/PolygonWestern03.mat
+  artifactKey: Guid(fb0f38d9b701c412f91ab21392a4db9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Textures/PolygonWestern03.mat using Guid(fb0f38d9b701c412f91ab21392a4db9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '358e391cadf4a741a29d89c0e0bf3f27') in 0.002747125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/ydhAssets/Materials/Dust.mat
+  artifactKey: Guid(424be3af6ad117140887d3e652a89d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Dust.mat using Guid(424be3af6ad117140887d3e652a89d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e0652d2be999989c9332f4fdd4bd2a1') in 0.002923542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Run/Run_Hand.anim
+  artifactKey: Guid(7987fd28f4147b448a3c657ecb39c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Run/Run_Hand.anim using Guid(7987fd28f4147b448a3c657ecb39c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f915d3bedeb4e27eba58c83adad2a03e') in 0.001141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Walk/Walk_TwoHands.anim
+  artifactKey: Guid(a0632783c98707146904cb36cf531af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Walk/Walk_TwoHands.anim using Guid(a0632783c98707146904cb36cf531af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '659c2e1c344df2ad7b44c1da1eaab1b8') in 0.001172417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001203 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_HandMagic.anim
+  artifactKey: Guid(3721c22d3c760fe4587038c6c3320414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_HandMagic.anim using Guid(3721c22d3c760fe4587038c6c3320414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5ce9d3e4e6b9556e74b9841da3523a1') in 0.000939084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002932 seconds.
+  path: Assets/ydhAssets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d90e021f59760b075e931bab8c833a7') in 0.000406208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/ydhAssets/Models/cowboy.mat
+  artifactKey: Guid(21f2758a06d374be48ac024c3ba5edb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Models/cowboy.mat using Guid(21f2758a06d374be48ac024c3ba5edb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d88bac2b21376f13f4b1ebc8a8eccf3') in 0.003771541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001175 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_Hand.anim
+  artifactKey: Guid(4e5c1a4adf325e54aa98ab8d94ef7555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_Hand.anim using Guid(4e5c1a4adf325e54aa98ab8d94ef7555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e02b454c3c4e54c3caf5d65fac18674') in 0.001152625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_Single.anim
+  artifactKey: Guid(b6ca4615130e6f54a9cfb73f94bfcae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_Single.anim using Guid(b6ca4615130e6f54a9cfb73f94bfcae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2930a6865c80372c209909cf45119277') in 0.001047167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001363 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_SingleGun.anim
+  artifactKey: Guid(06effd3e88de3c14087e2f47a19b9e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_SingleGun.anim using Guid(06effd3e88de3c14087e2f47a19b9e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcd408e5eb6d617837379ebb0f65281f') in 0.000938709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001107 seconds.
+  path: Assets/ydhAssets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '396a4b8ab0d3aefd022fdabb2ee7ddc5') in 0.000323417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001522 seconds.
+  path: Assets/ydhAssets/Materials/Textures/PolygonWestern06.mat
+  artifactKey: Guid(59c76b33641ab44629384d941709976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Textures/PolygonWestern06.mat using Guid(59c76b33641ab44629384d941709976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be1086cf1f2442f44a95cb0e8a99643d') in 0.002948292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/Shell.prefab
+  artifactKey: Guid(0cc948f443a734316ab20ca3f1cdc6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/Shell.prefab using Guid(0cc948f443a734316ab20ca3f1cdc6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc794e873303a10b1d786e8952cf9f76') in 0.008466417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/Player.prefab
+  artifactKey: Guid(d48bca30564d2764e8e218f6424f4394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/Player.prefab using Guid(d48bca30564d2764e8e218f6424f4394) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f02550b82b5e1e691a364bd54d403d50') in 0.014256792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 219
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_None.anim
+  artifactKey: Guid(b83da870ed85ff349bd3351ea12998d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_None.anim using Guid(b83da870ed85ff349bd3351ea12998d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e415525daa83149bb8aef5081220e59') in 0.001103459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001275 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_HandMagic.anim
+  artifactKey: Guid(a056cb68ed1786f46abf7fb88ef51850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_HandMagic.anim using Guid(a056cb68ed1786f46abf7fb88ef51850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5aa8a090d373f57a4366e717d6a7407d') in 0.0009605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000734 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_SingleGun.anim
+  artifactKey: Guid(ce4f4af90252c334688d348cc26fd9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_SingleGun.anim using Guid(ce4f4af90252c334688d348cc26fd9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd69c15499817697f10656a9dae3df7a3') in 0.0009315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001519 seconds.
+  path: Assets/ydhGameplay/ydhScripts/DiamondManager.cs
+  artifactKey: Guid(d6046d9d03f754473839463deb09c8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhGameplay/ydhScripts/DiamondManager.cs using Guid(d6046d9d03f754473839463deb09c8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97e9a970651e7212c71c40a97061b287') in 0.00008075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_TwoHands.anim
+  artifactKey: Guid(ca2b9e772954987499e06ed867922b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_TwoHands.anim using Guid(ca2b9e772954987499e06ed867922b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30dda2121db1e6be60655c9f97095856') in 0.001020667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_SingleGun.anim
+  artifactKey: Guid(4ad30b880437f0548bde78ae9ff9ec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_SingleGun.anim using Guid(4ad30b880437f0548bde78ae9ff9ec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be3cb724d0ad6ce4080f4476821626d7') in 0.000920417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Run/Run_Double.anim
+  artifactKey: Guid(df18bec2fbc36484089bfaf634f22121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Run/Run_Double.anim using Guid(df18bec2fbc36484089bfaf634f22121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1f57d7b4fdbf2163950be44edf3e71b') in 0.001066416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_TwoHandsMagic.anim
+  artifactKey: Guid(3011ffc93d2d440438103c3945dcd50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_TwoHandsMagic.anim using Guid(3011ffc93d2d440438103c3945dcd50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0946b0f1d1964ec9dbf7e322dd2af975') in 0.0007425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/ydhAssets/Materials/Textures/PolygonWestern02.mat
+  artifactKey: Guid(6a6183e33f5ad4582bff32afeb0f1d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Textures/PolygonWestern02.mat using Guid(6a6183e33f5ad4582bff32afeb0f1d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c925782a23e6ba1f3c22805adac8bf2') in 0.003776792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001013 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_TwoHandsMagic.anim
+  artifactKey: Guid(b6ec34148613604428ea4c7ab384e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_TwoHandsMagic.anim using Guid(b6ec34148613604428ea4c7ab384e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdfdbccc162ac6e63a261677246926f7') in 0.000890208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_None.anim
+  artifactKey: Guid(b905832609397d74cbab0d6e900fccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_None.anim using Guid(b905832609397d74cbab0d6e900fccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33ce3a2a36c22da85cab8432a94f494d') in 0.000821041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_Single.anim
+  artifactKey: Guid(155277ef83ecf3f46ac1af4c260d3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_Single.anim using Guid(155277ef83ecf3f46ac1af4c260d3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a946fcb6e1d2ffd2e3e32177ab32b649') in 0.000881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/ydhAssets/Materials/TankGrey.mat
+  artifactKey: Guid(c4c5f95d06932564c8672b4bafeb1b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/TankGrey.mat using Guid(c4c5f95d06932564c8672b4bafeb1b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25ebd331ff2ea96d3fa3c6f8da61f5da') in 0.002555084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002264 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/tnt/satchel_LP_lp_satchel_Diffuse.png
+  artifactKey: Guid(ae9e15e9a454443d7a06c6e1b09bae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/tnt/satchel_LP_lp_satchel_Diffuse.png using Guid(ae9e15e9a454443d7a06c6e1b09bae8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01c76c0e84608e93ba886ec0a3739b48') in 0.002574625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000715 seconds.
+  path: Assets/ydhAssets/Camera/Scripts/PlayerCameraFreeLook.cs
+  artifactKey: Guid(e44af8091779fcb40801d5b284353dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Camera/Scripts/PlayerCameraFreeLook.cs using Guid(e44af8091779fcb40801d5b284353dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ae734c739e91126ca12fb17d5dd71bd') in 0.000101541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_TwoHandsGun.anim
+  artifactKey: Guid(3b2fff5d4626dcc47a287263f7815453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_TwoHandsGun.anim using Guid(3b2fff5d4626dcc47a287263f7815453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5184d6d01bcf4716ae1c459a0fe657ba') in 0.000801958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/AICowboy.prefab
+  artifactKey: Guid(bef65e4bf74f64991a0d4ceb7449be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/AICowboy.prefab using Guid(bef65e4bf74f64991a0d4ceb7449be6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfc14593aa0358087c71cbb0c20c28f4') in 0.200403583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 304
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_TwoHands.anim
+  artifactKey: Guid(8f7fa75a5befa384cbf132d13bfe61a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/B/Attack1B_TwoHands.anim using Guid(8f7fa75a5befa384cbf132d13bfe61a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06aefe5a885c9bd5285111cf111e2e08') in 0.001156708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002028 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_Double.anim
+  artifactKey: Guid(15d828e616f830f468d2fcf8471127b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_Double.anim using Guid(15d828e616f830f468d2fcf8471127b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a659ed7227b77e8d2cf67e8678d1b1cd') in 0.000970667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_HandMagic.anim
+  artifactKey: Guid(ebcf727d6b0a2b246afb5765d06e921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack1/A/Attack1A_HandMagic.anim using Guid(ebcf727d6b0a2b246afb5765d06e921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d6f10da293974b107800cce58a1eb14') in 0.000941375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_TwoHandsGun.anim
+  artifactKey: Guid(47b7f389420cc1648ba1e868e3cb69b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_TwoHandsGun.anim using Guid(47b7f389420cc1648ba1e868e3cb69b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdf019db7f32f3afd0f1fa743815443c') in 0.000948833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Walk/Walk_Hand.anim
+  artifactKey: Guid(48b8e28a0c60cf94c8da2b4d00b67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Walk/Walk_Hand.anim using Guid(48b8e28a0c60cf94c8da2b4d00b67017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d4ec06f0f882ecc50cfb8c580d1044f') in 0.001073917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001169 seconds.
+  path: Assets/ydhGameplay/ydhScripts/WinCondition.cs
+  artifactKey: Guid(cceaa0c4c857142cb9a180767d8f0025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhGameplay/ydhScripts/WinCondition.cs using Guid(cceaa0c4c857142cb9a180767d8f0025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c98873596ad70f6fc79347c487323f45') in 0.00007875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/ydhAssets/Prefabs/EventSystem.prefab
+  artifactKey: Guid(3ca38cb5b05024557b036a25deab9bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/EventSystem.prefab using Guid(3ca38cb5b05024557b036a25deab9bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8e890d0f4dbb40296bfaf4c57a6e21f') in 0.001945125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001416 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_HandMagic.anim
+  artifactKey: Guid(87fb22545ec75614e8bb09fc396fb3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_HandMagic.anim using Guid(87fb22545ec75614e8bb09fc396fb3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aac175a3926baf854026191736b4a4c7') in 0.000773333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_DoubleGun.anim
+  artifactKey: Guid(97e05edb643c1c44fb0b093624d68c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_DoubleGun.anim using Guid(97e05edb643c1c44fb0b093624d68c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ca66a5cbca37c6a7538275d2ac2a1ee') in 0.000901834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001287 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_Double.anim
+  artifactKey: Guid(ae1e616aecb85f94c9257e29d7cb69f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_Double.anim using Guid(ae1e616aecb85f94c9257e29d7cb69f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb0ed8fd2a6dd5477307fcd70ece03ff') in 0.000883417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Run/Run_None.anim
+  artifactKey: Guid(4174cfc378db9854f8f977ca174107ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Run/Run_None.anim using Guid(4174cfc378db9854f8f977ca174107ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e92a5938ccb34d1f28667d44307cd1') in 0.000832875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001729 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Walk/Walk_Single.anim
+  artifactKey: Guid(1e00d228da406b641bb8096199803dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Walk/Walk_Single.anim using Guid(1e00d228da406b641bb8096199803dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29835fc99c95a84285ddc3f13d75cd4f') in 0.001103375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/ydhAssets/Materials/Textures/Sign.mat
+  artifactKey: Guid(44633694d55104684ace5729c99b93c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Textures/Sign.mat using Guid(44633694d55104684ace5729c99b93c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b85e2563379c945301404c994b8765d') in 0.00343775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/ydhAssets/Animation/Player/Move/Run/Run_TwoHands.anim
+  artifactKey: Guid(4f033f1ff16735d4fa0edcdaabdb1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Move/Run/Run_TwoHands.anim using Guid(4f033f1ff16735d4fa0edcdaabdb1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '124486d3c2bcc99d88e473905cbf57db') in 0.001074417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001600 seconds.
+  path: Assets/ydhAssets/Materials/Gold.mat
+  artifactKey: Guid(6221f2fbc7212d94cb9c069ee262d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Materials/Gold.mat using Guid(6221f2fbc7212d94cb9c069ee262d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86dca4c670851d8d73da818e23e26d7b') in 0.002709916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/tnt/satchel_LP_lp_satchel_Glossiness.png
+  artifactKey: Guid(3b778df9e81f04cf19361e3754ff08e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/tnt/satchel_LP_lp_satchel_Glossiness.png using Guid(3b778df9e81f04cf19361e3754ff08e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '609aacdb0c833a461e06be7aa69b2ed8') in 0.002214375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001057 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_SingleMagic.anim
+  artifactKey: Guid(01f0a677c718c1741af87bb65e83b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_SingleMagic.anim using Guid(01f0a677c718c1741af87bb65e83b9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd76427d6aedd7fd4d3a840ad8802f5b') in 0.000850166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001865 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_TwoHands.anim
+  artifactKey: Guid(94a9364350960ff49adfefe5c611a64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/B/Attack2B_TwoHands.anim using Guid(94a9364350960ff49adfefe5c611a64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e944cf46f2412d59da847305f71e101') in 0.000878209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001623 seconds.
+  path: Assets/ydhAssets/Animation/Player/Idle/Idle_Hand.anim
+  artifactKey: Guid(c079bd7810bc1ce44a9d0292f5c926b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Idle/Idle_Hand.anim using Guid(c079bd7810bc1ce44a9d0292f5c926b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ff8a764b7cc9fb2b0b20fabf164e3c0') in 0.00091325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_TwoHandsMagic.anim
+  artifactKey: Guid(004f69b3755a2a34cbeb2f09b56c922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Attack2/A/Attack2A_TwoHandsMagic.anim using Guid(004f69b3755a2a34cbeb2f09b56c922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7bf796ee99517f864317bc285ea6587') in 0.000789833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/ydhAssets/Prefabs/Complete/tnt/satchel_LP_lp_satchel_AO.png
+  artifactKey: Guid(8711649cebb5b4904963d1150517451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Prefabs/Complete/tnt/satchel_LP_lp_satchel_AO.png using Guid(8711649cebb5b4904963d1150517451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a98f3b6f1cfce334289bf926c26de8e0') in 0.002293375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/ydhAssets/Animation/Player/Idle/Idle_Single.anim
+  artifactKey: Guid(9207def94d144394f900df1ab2003ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ydhAssets/Animation/Player/Idle/Idle_Single.anim using Guid(9207def94d144394f900df1ab2003ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '140a717af937dc0430c0ae00a76cdb56') in 0.001070667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
