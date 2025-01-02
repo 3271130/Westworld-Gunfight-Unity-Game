@@ -1,2 +1,2 @@
 ## 演示视频  
-[![视频标题](https://www.youtube.com/watch?v=oW6DVXXmjyU/0.jpg)](https://www.youtube.com/watch?v=oW6DVXXmjyU)
+[![点击观看视频](https://img.youtube.com/vi/oW6DVXXmjyU/0.jpg)](https://www.youtube.com/watch?v=oW6DVXXmjyU)
